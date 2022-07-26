@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap");
+:root {
+  --purple: #4b367c;
+}
+/* start my frame work */
+.bg-purple {
+  background-color: #4b367c;
+}
+.text-purple {
+  color: #4b367c!important;
+}
+.border-purple {
+  border-color: #4b367c!important;
+}
+.bg-dark-blue {
+  background-color: #181d2b;
+}
+
+.z-index-2 {
+  z-index: 2;
+}
+.z-index-3 {
+  z-index: 3;
+}
+.z-index-4 {
+  z-index: 4;
+}
+.h-100 {
+  height: 100%;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.overflow-y-sroll {
+  overflow-y: auto;
+}
+
+
+/* end my frame work */
+/* end my frame work */
+body {
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
+}
+/* edit the height of carousel */
+@media only screen and (min-width: 986px) {
+  .carousel .carousel-item {
+    height: 357px;
+  }
+}
+/* set background image to each item */
+/* .carousel .carousel-item:first-child {
+  background-image: url("img/Ashampoo_Snap_2022.01.09_17h39m39s_002_.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel .carousel-item:nth-child(2) {
+  background-image: url("img/Ashampoo_Snap_2022.04.10_16h50m39s_003_.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.carousel .carousel-item:nth-child(3) {
+  background-image: url("img/Ashampoo_Snap_2022.04.10_16h58m08s_005_.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+/* edit size of h5 and p in carousel */
+#carousel h5,
+#carousel p {
+  text-shadow: 1px 1px 2px #000;
+}
+#carousel h5 {
+  font-size: 3.25rem;
+}
+#carousel p {
+  font-size: 1.4rem;
+}
+/* handle last episodes */
+#groupe {
+  display: flex;
+}
+#groupe .episode {
+  display: none;
+}
+/* movie section */
+.anime-section, .movie-section  {
+  background-image: url(img/dottedbg.png);
+  background-size: cover;
+}
+/* .movie-section {
+  background-image: url(img/test.png);
+  background-size: cover;
+} */
+/* set poster as a background to div */
+.episode > div {
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+/* handle the box of episode */
+.episode .quality,
+.episode .rate {
+  right: 9px;
+  font-size: 12px;
+}
+.episode .quality {
+  top: 5%;
+}
+.episode .rate {
+  top: 14%;
+}
+
+.episode h3 a {
+  font-size: 14px;
+}
+
+/* footer */
+footer > p {
+  background-image: url(img/bgfooter.png);
+  background-size: cover;
+  font-size: 14px;
+  height: 130px;
+}
+
+
+
+
+/* repsonsive slider */
+/* @media only screen and (max-width: 576px) {
+  .swiper-slide {
+    width: 175.5px!important;
+  }
+} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .swiper-slide {
+    width: 175.5px!important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .swiper-slide {
+    width: 175.5px!important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .swiper-slide {
+    width: 157.5px!important;
+  }
+}
+
+
+
+
+/* repsonsive all movies AND all series*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .allMS .episode {
+    height: 319px!important;
+    flex: 0 1 234px!important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .allMS .episode {
+    height: 239px!important;
+    flex: 0 1 169px!important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .allMS .episode {
+    height: 239px!important;
+    flex: 0 1 169px!important;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .allMS .episode {
+    height: 248px!important;
+    flex: 0 1 184px!important;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .allMS .episode {
+    height: 248px!important;
+    flex: 0 1 182px!important;
+  }
+}
+
+
+/* hide next-previous-btn in small devices */
+@media only screen and (max-width: 768px) {
+  .next-previous-btn {
+    display: none!important;
+  }
+}
+
+
+/* responsive tvv */
+@media only screen and (max-width: 768px) {
+  .tvv {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 769px) {
+  .tvv {
+    width: 65%;
+  }
+}

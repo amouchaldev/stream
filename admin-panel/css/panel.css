@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap");
+body {
+  font-family: "Cairo", sans-serif;
+  overflow-x: hidden;
+  background-color: #F1F1F1;
+}
+:root {
+  --first-color: #68a7ad;
+  --second-color: #99c4c8;
+}
+/* menu  */
+#menu {
+  height: 100vh;
+  width: 14%;
+  background: var(--first-color);
+  position: fixed;
+}
+
+#mydropdown, #mydropdown2, #sliderDropDown {
+  height: 0;
+  width: 0;
+  opacity: 0;
+  
+  /* transition: all 2s ease-out; */
+}
+#mydropdown li, #mydropdown2 li, #sliderDropDown li{
+  background-color: var(--second-color);
+}
+#mydropdown li:hover, #mydropdown2 li:hover, #sliderDropDown li:hover {
+  color: var(--first-color) !important;
+  transition: all 1s ease-out !important;
+}
+/* panel body */
+#panel-body {
+  width: 86%;
+  position: relative;
+  top: 0;
+  right: calc(100% - 86%);
+}
+
+label {
+  margin-top: 15px;
+}
+
+
+/* start my frame work */
+.bg-first {
+    background-color: var(--first-color);
+}
+.text-first {
+    color: var(--first-color);
+}
+#bommi {
+  color: brown;
+}

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400&display=swap");
+body {
+  background-image: url(img/dottedbg.png);
+  background-size: cover;
+}
+.anime-info {
+  background-image: url(img/dottedbg.png);
+  background-size: cover;
+}
+.anime-info .poster {
+  width: 214px;
+  height: 298px;
+}
+/* anime data */
+.genre {
+  gap: 13px;
+}
+/* anime-status */
+.anime-status ul li:nth-child(even) {
+  background-color: #43306e61;
+}
+/* season-episode */
+.season-episode ul {
+  background-image: url(img/dottedbg.png);
+  background-size: cover;
+}
+/* episode */
+#episode .episode,
+#season .season {
+  height: 274px;
+  flex: 0 1 177px;
+}

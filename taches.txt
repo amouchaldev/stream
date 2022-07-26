@@ -1,0 +1,31 @@
+
+first 
+get last added episode                               						DONE
+ADD QUALITY TO SERVERS STREAMING AND DOWNLOADS       						DONE
+streaming servers                                    						DONE
+download servers		                     						DONE
+category					     						DONE
+add episode => when choose anime it will apear select contain all season of this anime		DONE
+
+
+
+all movies											DONE
+all series											DONE
+statistique
+number of episodes later 									DONE
+episodes scroll bar 										
+hide the menu when click on li
+ADD added in TO (serie - season -ep - movie)     		
+edit / delete  											DONE
+statique
+عدد الحلقات                                           						DONE
+تصنيف
+
+
+add اعمال قد تعدبك under anime info on streaming page
+possibilité de change background de site
+main background 
+#15133C
+#112B3C
+
+bottom: -0.75rem;
